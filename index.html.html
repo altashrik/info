@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      overflow-x: hidden;
+    }
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    /* Header */
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      animation: slideIn 1s ease-out;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      animation: fadeInUp 1s ease-out;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1em;
+      animation: fadeInUp 1s ease-out;
+    }
+    /* Container for Content */
+    .container {
+      padding: 100px 20px 80px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    /* Sections */
+    section {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      animation: fadeInUp 1s ease-out;
+    }
+    section h2 {
+      margin-top: 0;
+    }
+    /* Button Style */
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007BFF;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+    /* Social Media Section */
+    .social-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 24px;
+      transition: transform 0.3s, color 0.3s;
+      display: inline-block;
+    }
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+    /* Social Media Colors */
+    .social-icon-facebook { color: #1877F2; }
+    .social-icon-instagram { color: #C13584; }
+    .social-icon-threads   { color: #3897F0; }
+    .social-icon-reddit    { color: #FF4500; }
+    .social-icon-twitter   { color: #1DA1F2; }
+    .social-icon-tiktok    { color: #010101; }
+    .social-icon-bluesky   { color: #0096D6; }
+    .social-icon-quora     { color: #B92B27; }
+    .social-icon-linkedin  { color: #0e76a8; }
+    .social-icon-github    { color: #000000; }
+    .social-icon-alfafaa   { color: #32CD32; }
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      animation: slideIn 1s ease-out;
+    }
+    footer a {
+      color: lightgray;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    footer a:hover {
+      color: #fff;
+    }
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .social-icons a {
+        font-size: 22px;
+      }
+    }
+    @media (max-width: 480px) {
+      .social-icons a {
+        font-size: 20px;
+        margin: 5px;
+      }
+      .container {
+        padding: 100px 10px 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>السلام عليكم</h1>
+    <p>.......</p>
+  </header>
+
+  <div class="container">
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p> </p>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Interested in collaborating or simply want to say hi? Feel free to reach out:</p>
+
+
+        <a href="mailto:gmail.com" class="button">Email</a>
+        <a href="tel:+8801" class="button">Call</a>
+        <a href="https://ha_2" class="button">Anyone Can Text Me by Anonymously</a>
+
+    </section>
+
+
+
+
+              <section id="">
+              <h2></h2>
+
+
+<title>Centered</title>
+<h1>BANGLADESH</h1>
+
+<center>
+   <img src="The Earth.jpg" alt="Example Image" style="width:300px; height:200px;">
+</center>
+
+
+                                                <!-- Content here -->
+
+
+
+</section>
+
+    
+
+    <!-- Social Media Section -->
+    <section id="social">
+    <section id="social">
+      <h2>Follow Me</h2>
+      <div class="social-icons">
+      
+
+
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Md. Tashrik Al Shahriar
+    <p>All Rights Reserved.</p>
+
+    </p>
+  </footer>
+</body>
+</html>
